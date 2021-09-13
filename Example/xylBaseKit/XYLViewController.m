@@ -8,6 +8,8 @@
 
 #import "XYLViewController.h"
 
+#import "NSString+XYLString.h"
+
 @interface XYLViewController ()
 
 @end
@@ -25,5 +27,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [NSString test];
+}
+
 
 @end

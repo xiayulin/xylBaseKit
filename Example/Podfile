@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'xylBaseKit_Example' do
+  pod 'xylBaseKit', :path => '../'
+
+  target 'xylBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
